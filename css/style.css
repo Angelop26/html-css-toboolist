@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
-
 /* COMMON */
 body{
     font-family: Arial, sans-serif;
+}
+
+.button{
+    padding: 5px;
+    border-radius: 5px;  
 }
 
 /* HEADER */
@@ -15,16 +19,39 @@ header{
     height: 80px;
     line-height: 80px;
 }
+
 #header-logo{
     height: 50px;
     margin: 10px 0 10px 15px;
     vertical-align: middle;
 }
+
 .header-title{
     display: inline-block;
     vertical-align: middle;
     font-size: 2rem;
-
 }
 
 /* MAIN */
+.container{
+    background-color: lightslategray;
+    padding: 10px;
+}
+main{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navigation{
+    padding: 10px 0 5px 15px;
+    margin: 10px 0 5px 20px;
+}
+.addtask{
+    background-color: cyan;
+    color: white;
+}
+.addsection{
+    background-color: white;
+    color: grey;
+}
